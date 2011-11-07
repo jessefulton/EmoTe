@@ -205,7 +205,7 @@ class Eklekt_Emotion_EmotionalState {
 	 * @return double representing the fear weight
 	 */
 	public function getFearWeight() {
-		return getFear()->getWeight();
+		return $this->getFear()->getWeight();
 	}
 
 	/**
